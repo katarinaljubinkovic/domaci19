@@ -26,10 +26,12 @@ public class TestKlase {
 
         teretana.setListaClanova(listaClanova);
 
-        //for (int i = 0; i < listaClanova.size(); i++) {
-        //System.out.println(listaClanova.get(i));
+        listaClanova.remove(rekreativac5);
 
-        //}
+        for (int i = 0; i < listaClanova.size(); i++) {
+        System.out.println(listaClanova.get(i));
+
+        }
         Sprava sprava1 = new Sprava("Sprava1", "Rad na nogama", 35);
         Sprava sprava2 = new Sprava("Sprava2", "Rad na rukama", 30);
         Sprava sprava3 = new Sprava("Sprava3", "Rad na trbušnjacima", 25);
