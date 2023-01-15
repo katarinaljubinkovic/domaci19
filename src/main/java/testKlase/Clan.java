@@ -14,8 +14,8 @@ public abstract class Clan {
         this.identifikacioniKod = identifikacioniKod;
         this.ime = ime;
         this.prezime = prezime;
-        this.visina = visina;
-        this.tezina = tezina;
+        setVisina(visina);
+        setTezina(tezina);
     }
 
     public String getIdentifikacioniKod() {
