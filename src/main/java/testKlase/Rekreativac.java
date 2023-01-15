@@ -36,7 +36,7 @@ public class Rekreativac extends Clan {
         }
     }
     public boolean postignutCilj(Sprava sprava) {
-        if (maksimalnoOpterecenje >= sprava.getTezinaRada() * (maksimalnoOpterecenje / (double) brojPonavljanja)) {
+        if (maksimalnoOpterecenje >= sprava.getTezinaRada() * brojPonavljanja) {
             return true;
         } else {
             return false;
