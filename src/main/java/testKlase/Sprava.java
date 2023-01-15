@@ -11,7 +11,7 @@ public class Sprava {
     public Sprava(String naziv, String opis, int tezinaRada) {
         this.naziv = naziv;
         this.opis = opis;
-        this.tezinaRada = tezinaRada;
+        setTezinaRada(tezinaRada);
     }
 
     public String getNaziv() {
