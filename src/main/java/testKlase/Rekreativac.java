@@ -9,8 +9,8 @@ public class Rekreativac extends Clan {
 
     public Rekreativac(String identifikacioniKod, String ime, String prezime, double visina, double tezina, int brojPonavljanja, double maksimalnoOpterecenje) {
         super(identifikacioniKod, ime, prezime, visina, tezina);
-        this.brojPonavljanja = brojPonavljanja;
-        this.maksimalnoOpterecenje = maksimalnoOpterecenje;
+        setBrojPonavljanja(brojPonavljanja);
+        setMaksimalnoOpterecenje(maksimalnoOpterecenje);
     }
 
     public int getBrojPonavljanja() {
